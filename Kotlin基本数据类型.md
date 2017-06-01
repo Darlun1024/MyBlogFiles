@@ -33,17 +33,17 @@ val i: Int = c.toInt()
 //Kotlin数据声明和初始化
 var a:Int = 100
 var b:Long = 100L
-var c:Float = 100f;
+var c:Float = 100F
 var d:Double = 100.0
 //Kotlin会根据赋值自动推断数据类型
 var A = 100
 var B = 100L
-var C = 100f
+var C = 100F
 var D = 100.0
 //对比一下Java的声明方式
 int a    = 100;
 long b   = 100L;
-float c  = 100f;
+float c  = 100F;
 double d = 100.0;
 //Java 装箱的基本数据类型声明
 Int A     = new Int(a);

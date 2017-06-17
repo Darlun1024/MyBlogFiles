@@ -1,13 +1,17 @@
-﻿# Kotlin的基本数据类型
-
-标签（空格分隔）： kotlin
-
+﻿---
+title:  Kotlin的基本数据类型
+date: 2017-06-02 10:17:08
+tags: Kotlin
+categories: 开发笔记
 ---
 
 Java有8种基本数据类型分别是byte,int,long,short,float,double,char,boolean。
 
 对应的Kotlin也有Byte,Int,Long,Short,Float,Double,Char,Boolean，不过在Kotlin种这些类型也是对象。
 这些基本数据类型有着与Java基本数据类型一致的工作方式。不过也有一些区别
+
+<!--more-->
+
 **1.不能自动转换类型（想象一下Java的类可以自动转换类型么）**
 ```
 val i:Int=7
@@ -53,17 +57,18 @@ Double D  = new Double(d);
 ```
 
 **5. 位运算符也不同**
-一下方法之适用于 Long 和 Int 数据类型。
+以下方法之适用于 Long 和 Int 数据类型。
+
 | Kotlin | Java | 说明 |
-| ------------- |:--------:| ------:|
+| :------------- |:--------:|:------:|
 | shl(bits)| << | 左移 | 
 | shr(bits)| \>\> | 右移  | 
 | ushr(bits)|  \>\>\>  |   无符号右移 | 
 | and(bits)|  & | 与 | 
-| or(bits) |  \| | 或  | 
-| xor(bits)|  ^ |  异或 | 
-| inv(bits)  |  ！ | 取反 | 
-
+| or(bits) |  &#124;  | 或  | 
+| xor(bits)|  ^ | 异或 | 
+| inv(bits)  | ! | 取反 | 
+ 
 
 [1]boolean是为了纪念英国数学家George Boole而命名的；
 
